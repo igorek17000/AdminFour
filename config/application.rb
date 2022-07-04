@@ -18,5 +18,6 @@ module AdminFour
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+#config.hosts = "vedoc-admin-load-balancer-631166647.us-east-1.elb.amazonaws.com"
   end
 end
