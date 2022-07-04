@@ -29,6 +29,8 @@ gem "jbuilder"
 
 gem 'activeadmin'
 
+gem 'therubyracer',  platforms: :ruby
+
 # Plus integrations with:
 gem 'devise'
 gem 'cancancan'
