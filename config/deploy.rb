@@ -21,6 +21,7 @@ set :rvm_map_bins, %w{gem rake ruby rails bundle}
 set :rvm_type, :user                     # Defaults to: :auto
 set :rvm_ruby_version, '3.0.0'      # Defaults to: 'default'
 set :rvm_custom_path, "/usr/share/rvm"
+#set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 set :keep_releases, 3
 set :keep_assets, 3
