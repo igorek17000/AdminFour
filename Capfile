@@ -4,6 +4,15 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 
+
+require 'capistrano/bundler'
+require 'capistrano/rails'
+require 'capistrano/rvm'
+set :rvm_type, :user                     # Defaults to: :auto
+set :rvm_ruby_version, '3.0.0p0'      # Defaults to: 'default'
+
+
+
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
