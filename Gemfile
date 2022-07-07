@@ -72,7 +72,7 @@ group :development do
   gem 'capistrano-rails', '~> 1.5', require: false
  gem 'capistrano-rvm'
   #gem 'capistrano-rbenv', '~> 2.1'
-  gem 'capistrano-db-tasks', require: false
+  gem 'capistrano-db-tasks'#, require: false
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
  
