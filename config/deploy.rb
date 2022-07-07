@@ -14,7 +14,7 @@ set :repo_url, 'git@github.com:Vedoc/AdminFour.git'
 set :deploy_to, '/home/deploy/AdminFour'
 set :branch, ENV['BRANCH'] if ENV['BRANCH']
 
-set :linked_files, %w{config/database.yml}#config/master.key}
+set :linked_files, %w{config/database.yml config/master.key}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 #set :rvm_type, :user
 set :rvm_map_bins, %w{gem rake ruby rails bundle}
