@@ -16,6 +16,8 @@ Rails.application.configure do
 
   # Enable server timing
   config.server_timing = true
+  
+  config.require_master_key = true
 
 
 
