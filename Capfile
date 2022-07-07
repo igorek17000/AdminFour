@@ -9,7 +9,7 @@ require 'capistrano/bundler'
 require 'capistrano/rails'
 require 'capistrano/rvm'
 
-require 'capistrano/master_key'
+#require 'capistrano/master_key'
 
 
 
