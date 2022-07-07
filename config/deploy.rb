@@ -16,8 +16,10 @@ set :branch, ENV['BRANCH'] if ENV['BRANCH']
 
 set :linked_files, %w{config/database.yml config/master.key}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
-set :rvm_type, :user
-set :rvm_map_bins, %w{gem rake ruby rails bundle}
+#set :rvm_type, :user
+#set :rvm_map_bins, %w{gem rake ruby rails bundle}
+set :rvm_type, :user                     # Defaults to: :auto
+set :rvm_ruby_version, '3.0.0p0'      # Defaults to: 'default'
 
 set :keep_releases, 3
 set :keep_assets, 3
